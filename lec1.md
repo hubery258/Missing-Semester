@@ -1,6 +1,7 @@
 # lec1: shell
 
-[课程连接](https://missing-semester-cn.github.io/2020/course-shell/)
+[课程连接](https://missing-semester-cn.github.io/2020/course-shell/)<br>
+[我的笔记下载地址](https://github.com/hubery258/Missing-Semester)
 
 ## shell是什么？
 可理解为与电脑进行交互的面板（接口），最流行的一种:bash
@@ -26,6 +27,8 @@ hubery@localhost:~$
 - `echo`可以直接输出一段字符串或变量的值(`echo $变量`)，如`echo hello`即可在terminal上打印hello
 
 - `cat`可以读取**文件**内容并输出
+
+- `touch`可以修改文件时间，当没有该文件时可以新建一个。(中文解释)[https://www.runoob.com/linux/linux-comm-touch.html]
 
 - `pwd`获取当下所在路径，`cd /home`可以快速指定回到的目录，要记得cd后面那一坨都是参数，所以怎么给都可以，不要被cs50限制
     - 绝对路径就是完整的路径，其他都是相对路径
